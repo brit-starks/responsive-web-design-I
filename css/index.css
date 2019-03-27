@@ -230,8 +230,58 @@ margin-right: 50px;
     
     .container .heading .innovate h3 {
        position: relative;
-       left: 25px;
+       left: 20px;
     }
 } 
 
+/* --------------Mobile View----------- */
+@media (max-width: 500px) {
+     .container {
+         margin: 0px;
+         width: 100%;
+     }
 
+     .container .navItems {
+				align-self: center;
+     }
+
+     .container .heading .innovate {
+			 width: 100%;
+				position: relative;
+			left: 120px;
+     }
+
+    .container .navigation .navItems {
+      width: 50%;
+      flex-direction: column;
+      margin-left: 0%;
+      font-size: 2em;
+		}
+		
+		.container .content1 {
+			display: flex;
+			flex-direction: column;
+			width: 150%;
+			margin: 20px;
+			padding-top: 60px; 
+		}
+
+		.container .content2 {
+			display: flex;
+			flex-direction: column;
+			width: 150%;
+			margin: 20px;
+			padding-top: 60px; 
+		}
+
+		.container .middle-img{
+			margin-top: 20px;
+			width: 100%;			}
+	}
+	
+
+			.container .navItems a {
+				border-top: 1px solid gray;
+				padding: 20px;
+				width: 100%;
+				}
